@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Kaushan+Script&family=Lora&family=Montserrat:wght@300&family=Nunito:wght@600&family=Pacifico&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Mukta:wght@500&display=swap");
+
+body {
+  background: url(seat.webp);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.brand {
+  margin: 10px 0px 0px 20px;
+  font-family: "Kaushan Script";
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px white;
+}
+
+.brand:hover {
+  color: black;
+  transform: scale(1.2);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  background: #d9d9d9;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px #d9d9d9;
+}
+
+.select-box {
+  margin-top: 20px;
+  padding: 5px;
+  border: 3px solid;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Kanit", sans-serif;
+}
+
+.coach {
+  margin: 20px 30px 20px 30px;
+  width: auto;
+  height: auto;
+  background: #11356b;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #11356b;
+}
+
+.seats {
+  padding: 15px;
+}
+
+.indication {
+  display: flex;
+  justify-content: center;
+}
+
+.lower-indicator {
+  background-color: #007fff;
+  margin: 15px 0 0 0;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+.middle-indicator {
+  background-color: #5a4fcf;
+  margin: 15px 10px 0 10px;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+.upper-indicator {
+  background-color: #6cb4ee;
+  margin: 15px 0 0 0;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+.col {
+  display: flex;
+}
+
+.top {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.bottom {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.lower {
+  background-color: #007fff;
+  margin: 10px 0px 10px 10px;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+.middle {
+  background-color: #5a4fcf;
+  margin: 10px 0px 10px 0px;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+
+.upper {
+  background-color: #6cb4ee;
+  margin: 10px 10px 10px 0px;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  font-family: "Kanit", sans-serif;
+}
+
+.lower:hover {
+  background-color: white;
+  color: #11356b;
+  outline: 4px solid #11356b;
+  cursor: pointer;
+  transform: rotate(0);
+}
+
+.middle:hover {
+  background-color: white;
+  color: #11356b;
+  outline: 4px solid #11356b;
+  cursor: pointer;
+  transform: rotate(0);
+}
+
+.upper:hover {
+  background-color: white;
+  color: #11356b;
+  outline: 4px solid #11356b;
+  cursor: pointer;
+  transform: rotate(0);
+}
+
+.side .lower {
+  background-color: #007fff;
+  margin: 10px;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+.side .upper {
+  background-color: #6cb4ee;
+  margin: 20px 10px 10px 10px;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  font-family: "Kanit", sans-serif;
+}
+
+.side .lower:hover {
+  background-color: white;
+  color: #11356b;
+  outline: 4px solid #11356b;
+  cursor: pointer;
+  transform: rotate(0);
+}
+
+.side .upper:hover {
+  background-color: white;
+  color: #11356b;
+  outline: 4px solid #11356b;
+  cursor: pointer;
+  transform: rotate(0);
+}
+
+.lower.selected,
+.middle.selected,
+.upper.selected {
+  background-color: green;
+  color: white;
+}
+
+.submit-btn {
+  margin: 0 0 20px 0;
+  padding: 10px 20px;
+  border: 2px solid #11356b;
+  border-radius: 10px;
+  background-color: #11356b;
+  color: white;
+  box-shadow: 1px 1px 5px #11356b;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.submit-btn:hover {
+  background-color: white;
+  color: #11356b;
+  cursor: pointer;
+}

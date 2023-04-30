@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lora&family=Montserrat:wght@300&family=Nunito:wght@600&family=Pacifico&display=swap");
+.bgimg {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(LGT1.webp);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.brand {
+  font-family: "Kaushan Script";
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px white;
+}
+.brand:hover {
+  transform: scale(1.2);
+}
+.form-box {
+  width: 400px;
+  height: auto;
+  background: rgb(231, 230, 230);
+  box-shadow: 10px 5px 80px rgb(195, 192, 192);
+  /*outline-style: solid;
+  outline-width: 15px;
+  outline-color: #11356b;*/
+  color: #11356b;
+  border-radius: 25px;
+  padding: 30px 30px;
+  font-family: Cambria;
+  opacity: 0.9;
+  margin-left: 60%;
+  margin-top: 5%;
+}
+.form-box h3 {
+  padding: 5%;
+  font-family: "Lora";
+  font-weight: bolder;
+}
+.form-box .content {
+  padding: 25px;
+}
+.form-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.form-box input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form-box input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #11356b;
+  background: transparent;
+  outline: none;
+  font-size: xx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: auto;
+  font-size: 20px;
+}
+.form-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #11356b;
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: auto;
+}
+.submit-btn {
+  border: 0;
+  outline: none;
+  padding: 5px 10px;
+  width: 60%;
+  height: 60px;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 5px 5px 20px #11356b;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 15px;
+  background-color: rgba(17, 53, 107, 1);
+}
+.submit-btn:hover {
+  border: none;
+  outline: none;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50px;
+  background: white;
+  color: #11356b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 15px;
+  transform: scale(1.1);
+}
+.g-img {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+.google-btn {
+  width: 80%;
+  margin-left: 40px;
+  padding: 10px;
+  background-color: #11356b;
+  color: white;
+  border: none;
+  /*border: 5px solid #11356b;*/
+  border-radius: 40px;
+  box-shadow: 5px 5px 20px #11356b;
+  font-size: 25px;
+}
+.google-btn:hover {
+  background-color: white;
+  color: #11356b;
+}
+.login {
+  color: #11356b;
+}

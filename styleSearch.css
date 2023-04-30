@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Kaushan+Script&family=Lora&family=Montserrat:wght@300&family=Nunito:wght@600&family=Pacifico&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Mukta:wght@500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: url(Search.jpg);
+  background-size: cover;
+}
+.brand {
+  margin: 10px 0px 0px 20px;
+  font-family: "Kaushan Script";
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px white;
+}
+.brand:hover {
+  color: black;
+  transform: scale(1.2);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 15px;
+  border: 2px solid #115ac8;
+  background-color: white;
+  width: fit-content;
+  opacity: 0.9;
+  box-shadow: 5px 0px 10px white;
+  position: fixed;
+}
+
+.from-icon,
+.to-icon {
+  padding: 10px;
+  height: 40px;
+}
+
+.switch-icon {
+  padding: 0px;
+  margin: 0px 20px 0px 20px;
+  border: 2px solid #115ac8;
+  border-radius: 50px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+/*.switch-icon:hover {
+  rotate: 180deg;
+}*/
+
+.calendar-icon {
+  padding: 10px;
+  height: 40px;
+}
+
+.search-btn {
+  padding: 15px;
+  margin: 0;
+  border: 2px solid #115ac8;
+  border-radius: 12px;
+  background-color: #115ac8;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
+}
+
+.search-btn:hover {
+  background-color: white;
+  color: #115ac8;
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
+}
+.from_text,
+.to_text,
+.date_text {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Mukta", sans-serif;
+}
+
+.select_from,
+.select_to,
+.select_date {
+  display: block;
+  border: 2px solid white;
+  padding: 3px;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.select_from:focus-visible,
+.select_to:focus-visible,
+.select_date:focus-visible {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+option {
+  padding: 20px;
+  border: 10px solid #115ac8;
+}
+
+.train-wrap {
+  margin-top: 50px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Train {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 15px;
+  background: white;
+  width: 300px;
+  box-shadow: 5px 5px 25px whitesmoke;
+  height: auto;
+  margin: 15px;
+  font-family: "Mukta", sans-serif;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+.row #trainName {
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 10%;
+}
+.row #trainNumber {
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 10%;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0px 10px 0px;
+}
+#bookBtn {
+  background: #115ac8;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px solid #115ac8;
+  box-shadow: 2px 2px 10px #115ac8;
+  font-size: 16px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#bookBtn:hover {
+  color: #115ac8;
+  background: white;
+  border: 1px solid #115ac8;
+}

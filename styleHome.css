@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lora&family=Montserrat:wght@300&family=Nunito:wght@600&family=Pacifico&family=Roboto+Slab&display=swap");
+body {
+  overflow: hidden;
+}
+.bgimg {
+  background-image: url(train-banner.png);
+  background-size: cover;
+  width: 100%;
+  height: 480px;
+}
+.bgcolor {
+  background-color: #2c5798;
+  background-size: cover;
+  opacity: 0.8;
+}
+.brand {
+  position: absolute;
+  font-family: "Kaushan Script";
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px white;
+}
+.brand:hover {
+  transform: scale(1.2);
+}
+.login {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  box-shadow: 5px 5px 20px #11356b;
+}
+.login:hover {
+  transform: scale(1.1);
+}
+.signup {
+  padding: 10px 20px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 15px;
+  background-color: #115ac8;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  letter-spacing: 0.5px;
+  box-shadow: 5px 5px 20px #11356b;
+}
+.signup:hover {
+  background-color: white;
+  color: #115ac8;
+  transform: scale(1.1);
+}
+.title {
+  position: relative;
+  font-family: "Pacifico";
+  font-size: 50px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+  color: white;
+  top: 120px;
+}
+.main-btn {
+  position: relative;
+  top: 150px;
+  margin: auto;
+  padding: 20px 40px;
+  display: block;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px #11356b;
+  font-size: 30px;
+  font-family: "Nunito";
+  text-align: center;
+  color: white;
+  background-color: #115ac8;
+  letter-spacing: 5px;
+}
+.main-btn:hover {
+  background-color: white;
+  color: #115ac8;
+  transform: scale(1.1);
+}
+/*.about-us {
+  font-family: "Kaushan Script";
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}*/
+.content {
+  font-family: "Kaushan Script";
+  font-size: 30px;
+  text-align: center;
+  line-height: 55px;
+  letter-spacing: 1px;
+  color: white;
+}
+.social {
+  padding: 20px;
+  text-align: center;
+  font-family: "Lora";
+  font-size: 5px;
+  word-spacing: 20px;
+}
+/*.social:hover {
+  color: red;
+}*/
+.icons {
+  height: 30px;
+  filter: drop-shadow(5px 5px 5px black);
+  overflow: hidden;
+}
+.icons:hover {
+  transform: scale(1.2);
+}
+.contact-us {
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+}

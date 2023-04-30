@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleSearch.css">
+  <script type="module" src="SearchDisplay.js"></script>
+  <title>Tripma | Search</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="brand navbar-brand h1 ms-4" href="Home.html">Tripma</a>
+    </nav>
+  </header>
+  <section>
+    <div class="container">
+      <div class="search">
+        <img src="From.png" class="from-icon">
+        <label for="from" class="from_text">From</label>
+        <select id="from" class="select_from">
+          <option value="">Select</option>
+          <option value="">Mumbai</option>
+          <option value="">Raigad</option>
+          <option value="">Ratangiri</option>
+          <option value="">Shrivardhan</option>
+        </select>
+        <img src="switch.png" class="switch-icon" id="switch-btn">
+        <img src="To.png" class="to-icon">
+        <label for="to" class="to_text">To</label>
+        <select class="select_to" id="to">
+          <option value="">Select</option>
+          <option value="">Mumbai</option>
+          <option value="">Raigad</option>
+          <option value="">Ratangiri</option>
+          <option value="">Shrivardhan</option>
+        </select>
+        <img src="calendar.png" class="calendar-icon">
+        <label for="dates" class="date_text">Date</label>
+        <input type="date" class="select_date" id="dates">
+        <button class="search-btn">Search</button>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="train-wrap">
+      <!--<div class="Train">
+         <div class="row">
+        <span id="trainName">Train Name</span>
+        <span id="trainNumber">Train No.</span>
+      </div>
+      <div class="row">
+        <span id="departureTime">00.00</span>
+        <span id="duration">-----Journey Hrs-----</span>
+        <span id="arrivalTime">00.00</span>
+      </div>
+      <div class="row">
+        <span id="source">Source</span>
+        <span id="two">---To---</span>
+        <span id="destination">Destination</span>
+      </div>
+      <div class="btn">
+        <button class="book" id="bookBtn">Book</button>
+      </div>
+      </div>-->
+    </div>
+  </section>
+  <script src="Search.js"></script>
+</body>
+
+</html>
